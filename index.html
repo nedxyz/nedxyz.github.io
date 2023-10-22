@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Studio Nils Deutsch</title>
+        <link rel="stylesheet" href="./CSS/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <!-- Einbindung von Google Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300;900&display=swap" rel="stylesheet">
+
+        <script defer src="script.js"></script>
+    </head>
+    <body data-barba="wrapper">
+
+        <div class="load-container">
+            <div class="loading-screen"></div>
+        </div>
+
+        <div class="wrapper" data-barba="container" data-barba-namespace="home-section">
+
+            <!-- Pfeil mit fixed position, der am rechten Rand liegt -->
+            <a href="#center-header" class="arrow-up">
+                <img src="./ASSETS/arrow_upward_FILL0_wght100_GRAD0_opsz48.svg" alt="An arrow that points upwards and that brings you to the beginning of this page. He is located on the right side of this webpage. / Ein Pfeil, der nach oben zeigt und dich an den Anfang dieser Seite bringt. Er befindet sich am rechten rand dieser Seite.">
+            </a>
+
+            <header>
+                <div id="center-header">
+
+                    <div class="logo">Nils Deutsch</div>
+
+                    <nav>
+                        <button class="hamburger-button">
+                            <svg
+                                class="menu-icon"
+                                xmlns="http://www.w3.org/2000/svg"
+                                height="48"
+                                width="48"><path d="M6 36v-3h36v3Zm0-10.5v-3h36v3ZM6 15v-3h36v3Z"/></svg>
+                            <svg
+                                class="arrow-left"
+                                xmlns="http://www.w3.org/2000/svg"
+                                height="48"
+                                width="48"><path d="M24 40 8 24 24 8l2.1 2.1-12.4 12.4H40v3H13.7l12.4 12.4Z"/></svg>
+                        </button>
+
+                        <ul>
+                            <li>
+                                <a href="#info">Info</a>
+                            </li>
+                            <li class="dropdown">
+                                <div class="dropbtn">Work</div>
+                                <div class="dropdown-content">
+                                    <a class="dropdown-content-a" href="#project1">Project1</a>
+                                    <a class="dropdown-content-a" href="#fireball">Fireball</a>
+                                    <a class="dropdown-content-a" href="#gigology">Gigology</a>
+                                    <a class="dropdown-content-a" href="#places">Places</a>
+                                </div>
+                            </li>
+                            <li>
+                                <a class="full-screen-nav-margin-top" href="#links">Links</a>
+                            </li>
+                            <li class="dropdown">
+                                <div class="dropbtn">Contact</div>
+                                <div class="dropdown-content">
+                                    <a class="dropdown-content-a" href="#contact">Contact-Info</a>
+                                    <a class="dropdown-content-a hide-me" href="imprint.html">Imprint</a>
+                                    <a class="dropdown-content-a hide-me" href="data-protection.html">Privacy Policy</a>
+                                </div>
+                                
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+
+            <main>
+                <!-- Introduction-Section, in der ich etwas über mich erzähle -->
+                <section id="info">
+                    <div class="info-wrapper">
+                        <div class="linke-spalte animate-this">
+                            <div class="black-box">
+                                <h1>Info</h1>
+                                <p class="p-black-box">
+                                    <span class="highlight-info">Nils Deutsch</span>
+                                    is an interdisciplinary creative currently studying Intermediadesign. His Fields
+                                    of interests range from 2D, 3D, photography, video, curation, print and
+                                    strategy. A dream would be to start his own start up. He is also the co-founder
+                                    of blank/ Space.</p>
+                            </div>
+
+                            <img
+                                class="portrait"
+                                src="./ASSETS/portrait-me.jpg"
+                                alt="A black and white portrait of Nils Deutsch, developer and designer of this webpage. / Ein Passbild von Nils Deutsch, dem Designer und Developer dieser Website in schwarz und weiß">
+                        </div>
+                        <div class="rechte-spalte info animate-this">
+
+                            <h2 class="blank-space-header">Blank/ Space</h2>
+
+                            <p class="blank-space-info-paragraph">Blank/ Space is a project that I started 3
+                                months ago. Its main purpose is to connect people from all kinds of backgrounds
+                                through cultural events organised by me and Christian Kuersten. The first of
+                                hopefully many events took place on 20th January at the Gallery of the
+                                <a href="http://www.junge-kunst-trier.de/" target="_blank">[Kunstverein Trier Junge Kunst]</a>.</p>
+                            <img
+                                class="blank-space-img"
+                                src="./ASSETS/RZ_BLANK_SPACE_A5_FLYER_Page_1.jpg"
+                                alt="The flyer for the last art exhibition organized by Blank/   Space. / Der Flyer für die letzte Kunstausstellung, die von Blank/    Space organisiert wurde.">
+
+                            <a class="arrow-down" href="#work">
+                                <img src="./ASSETS/arrow_upward_FILL0_wght100_GRAD0_opsz48.svg" alt="An arrow that points downwards and that brings you to project section of this page. / Ein Pfeil, der nach unten zeigt und dich zur Projekte-Sektion dieser Seite bringt.">
+                            </a>
+                        </div>
+                    </div>
+
+                </section>
+
+                <section id="work">
+
+                    <!-- Project1 -->
+                    <div id="project1">
+                        <div class="linke-spalte reveal">
+                            <div class="black-box projects">
+                                <h2>Project1</h2>
+                                <p class="p-black-box">
+                                    <span class="highlight-info">Project1</span>
+                                    is a Paris based fashion brand by Christian Brand. For their Pop-Up in June I
+                                    created a website in collaboration with Ceyhun Güney to showcase their
+                                    collection "Das neue Gleiche". <br>
+                                    <span class="hover-this-find-out-more">Hover over or tap on (depending on your screen) the project to find out more.</span></p>
+
+                                <div class="filter">
+                                    <h3 class="klassifizierung">Webdesign + Development</h3>
+                                    <h3 class="klassifizierung datum">2022</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="rechte-spalte reveal">
+                                        <div class="media-wrapper">
+                                            <video
+                                                class="project1-video blur"
+                                                src="./ASSETS/project-1-video-final.mp4"
+                                                loop autoplay muted></video>
+
+                                                <div class="media-content fade">
+                                                    One possesses too much, one feels too much, and yet so little of this surfeit holds meaning. Design as rebellion and inventory, as interpretation - as self expression. Connected to all that was and all that is to come. Diagonal cycle. For me project 1 is not about outdoing someone on a creative level. I see it as an homage to creativity itself. Taking inspiration from what has already been there - to reinterpret and manipulate it in my own way and by creating the opportunity to let the wearer do the same.</div>
+                                        </div>
+                               
+
+                            <div class="media-wrapper">
+                                <video
+                                    class="project1-video blur"
+                                    src="./ASSETS/project-1-video-final-reversed.mp4"
+                                    loop autoplay muted
+                                    ></video>
+
+                                    <div class="media-content fade">It’s about construction and deconstruction. By taking a classical silhouette and starting from its fundamental form, my designs transform into something timeless but innovative. Architectural, clear but also abstract. Born in Germany, based in Paris. Contrast and contrariness. Rebellion against the inner as well as the outer. Isn't that the embodiment of creativity? Formed by history, by art and architecture - by brutalism.
+                                    Project 1 is all about the second impression - the impression that lasts.</div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- Fireball -->
+                    <div id="fireball">
+                        <div class="linke-spalte reveal">
+                            <div class="black-box projects">
+                                <h2>Fireball</h2>
+                                <p class="p-black-box">
+                                    <span class="highlight-info">Fireball</span>
+                                    is a projection Mapping project developed in touch designer. The video was
+                                    created with StyleGan2 using images from Flickr.
+                                    <br>
+                                    <span class="hover-this-find-out-more">Hover over or tap on (depending on your screen) the project to find out more.</span></p>
+
+                                <div class="filter">
+                                    <h3 class="klassifizierung">CGI</h3>
+                                    <h3 class="klassifizierung datum">2023</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="rechte-spalte reveal">
+                            <div class="media-wrapper">
+                                <video
+                                    class="fireball-video blur"
+                                    src="./ASSETS/fireball-video-unedited.mp4"
+                                    loop autoplay muted
+                                    ></video>
+
+                                    <div class="media-content fade">
+                                        Using Touch Designer as my developing environment, I created several networks to achieve the effect that can be seen on the right. This project was created as a university project. Its main purpose was to familiarize oneself with the development tool Touch Designer and combine it with artificial intelligence.</div>
+                            </div>
+
+                            <div class="media-wrapper blur">
+                                <video
+                                    class="fireball-video"
+                                    src="./ASSETS/fireball-video-final.mp4"
+                                    loop autoplay muted 
+                                    ></video>
+
+                                    <div class="media-content fade">
+                                        What you can see here is the final draft of the project. My goal for this video was to create a sci-fi like look and make it somehow look a bit dangerous. I also used image instancing to achieve this point cloud like look.</div>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                    <!-- Gigology -->
+                    <div id="gigology">
+                        <div class="linke-spalte reveal">
+                            <div class="black-box projects">
+                                <h2>Gigology</h2>
+                                <p class="p-black-box">
+                                    <span class="highlight-info">Gigology</span>
+                                    is a festival in Istanbul. They needed a 3D logo for their website. The logo was
+                                    created in blender in collaboration with Joel Geibel.
+                                    <br>
+                                    <span class="hover-this-find-out-more">Hover over or tap on (depending on your screen) the project to find out more.</span></p>
+
+                                <div class="filter">
+                                    <h3 class="klassifizierung">Creative Direction</h3>
+                                    <h3 class="klassifizierung">3D</h3>
+                                    <h3 class="klassifizierung datum">2022</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="rechte-spalte reveal">
+                            <div class="media-wrapper">
+                                <video
+                                    class="gigology-video blur"
+                                    src="./ASSETS/gigology.mp4"
+                                    loop autoplay muted
+                                    ></video>
+
+                                    <div class="media-content fade">Gigology creates communities  with projects that make a concrete difference in people's lives. Opportunities for people to lead them toward qualitatively better moments: Throughout its 10-year journey, Gigology has put creativity and equality at the center to ensure well-being in people's lives.</div>
+                            </div>
+                                
+                                
+                            <div class="media-wrapper">
+                                <img class="gigology-img" src="./ASSETS/gigology.jpg"  alt="An image that shows a 3D model of a link. It is slightly iridescent and silver. / Ein Bild, welches ein 3D Model eines Einzelstücks einer Kette zeigt. Es ist leicht schillernd und silber.">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Places -->
+                    <div id="places">
+                        <div class="linke-spalte reveal">
+                            <div class="black-box projects">
+                                <h2>Places where I'd like to read at</h2>
+                                <p class="p-black-box">
+                                    <span class="highlight-info">Places where I'd like to read at</span>
+                                    is a project about creating 3D places in which I would like to read. The first two spaces were created in blender.
+                                <br>
+                                <span class="hover-this-find-out-more">Hover over or tap on (depending on your screen) the project to find out more.</span></p>
+
+                                <div class="filter">
+                                    <h3 class="klassifizierung">CGI</h3>
+                                    <h3 class="klassifizierung datum">2022</h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="rechte-spalte reveal">
+                            
+                                <div class="img-grid">
+                                    <div class="media-wrapper">
+                                        <img class="places-img blur" src="./ASSETS/places.jpg" alt="An image of a 3D space that was created in Blender. / Ein Bild eines 3D Raumes, der in Blender erstellt wurde.">
+                                        <div class="media-content fade">
+                                            I have alwas been fascinated by the craft of architecture and interoir design and how, through the usage of different principles, one is able to set the mood of a space.
+                                        </div>
+                                    </div>
+                                    <div class="media-wrapper">
+                                        <img class="places-img blur" src="./ASSETS/places-03.jpg" alt="An image of a 3D space that was created in Blender. / Ein Bild eines 3D Raumes, der in Blender erstellt wurde.">
+                                        <div class="media-content fade">This is another space I have designed in Blender. It is situated in the middle of a sea and consists of three floors. Each floor has a different function. The first floor functions as the bedroom, the second floor as a living room and the third floor as a community space.</div>
+                                    </div>
+                                    <div class="media-wrapper">
+                                        <img class="places-img blur" src="./ASSETS/places-02.jpg" alt="An image of a 3D space that was created in Blender. / Ein Bild eines 3D Raumes, der in Blender erstellt wurde.">
+                                        <div class="media-content fade">Here you can see another angle from this project.</div>
+                                    </div>
+                                    <div class="media-wrapper">
+                                        <img class="places-img blur" src="./ASSETS/places-04-01.jpg" alt="An image of a 3D space that was created in Blender. / Ein Bild eines 3D Raumes, der in Blender erstellt wurde.">
+                                        <div class="media-content fade">I am an avid reader and love to look at how people design their reading spaces. That's how I initialy came up with the concept of this series. My goal is to create several spaces in which I would like to spend time and read.</div>
+                                    </div>
+                                </div>
+                            
+
+                        </div>
+                    </div>
+
+                </section>
+
+                <!-- Links Section -->
+                <section id="links">
+                    <div class="links-wrapper">
+                        <div class="linke-spalte reveal">
+                            <div class="black-box projects">
+                                <h2>Useful Links</h2>
+                                <p class="p-black-box">Here are some
+                                    <span class="highlight-info">links</span>
+                                    which are crucial to my creative process and that I probably couldn't live
+                                    without. The Websites that these Links lead to are either for personal fun or
+                                    professional use.</p>
+                            </div>
+                        </div>
+                        <!-- Auflistung der Links in der rechten Spalte -->
+                        <div class="rechte-spalte reveal">
+
+                            <!-- NTS -->
+                            <div class="row">
+                                <div class="row-links">
+                                    <a href="https://www.nts.live/" target="_blank"><img
+                                        class="arrow-animation"
+                                        src="./ASSETS/arrow_upward_FILL0_wght100_GRAD0_opsz48.svg"
+                                        alt="An arrow that points upwards but when you hover it, it points to the right. If you click on it, it will send you to the linked website. / Ein Pfeil, der nach oben zeigt. Fährt man allerdings mit der Maus über ihn, zeigt er nach rechts. Klickt man ihn, schickt er dich zu der verlinkten Webseite."></a>
+                                </div>
+                                <div class="row-rechts">
+                                    <h3>NTS</h3>
+                                    <p>NTS is a global radio platform broadcasting music from over 50 cities around the globe, live 24/7. They also offer a huge archive with some awesome dj sets.</p>
+                                </div>
+                            </div>
+
+                            <!-- Youtube -->
+                            <div class="row">
+                                <div class="row-links">
+                                    <a href="https://www.youtube.com/watch?v=YWA-xbsJrVg" target="_blank"><img
+                                        class="arrow-animation"
+                                        src="./ASSETS/arrow_upward_FILL0_wght100_GRAD0_opsz48.svg"
+                                        alt="An arrow that points upwards but when you hover it, it points to the right. If you click on it, it will send you to the linked website. / Ein Pfeil, der nach oben zeigt. Fährt man allerdings mit der Maus über ihn, zeigt er nach rechts. Klickt man ihn, schickt er dich zu der verlinkten Webseite."></a>
+                                </div>
+                                <div class="row-rechts">
+                                    <h3>Youtube</h3>
+                                    <p>Youtube, for me, is a great place to self-teach me diferrent skills that could come in handy for upcoming or ongoing projects.</p>
+                                </div>
+                            </div>
+
+                            <!-- ARE.NA -->
+                            <div class="row">
+                                <div class="row-links">
+                                    <a href="https://www.are.na/nils-deutsch" target="_blank"><img
+                                        class="arrow-animation"
+                                        src="./ASSETS/arrow_upward_FILL0_wght100_GRAD0_opsz48.svg"
+                                        alt="An arrow that points upwards but when you hover it, it points to the right. If you click on it, it will send you to the linked website. / Ein Pfeil, der nach oben zeigt. Fährt man allerdings mit der Maus über ihn, zeigt er nach rechts. Klickt man ihn, schickt er dich zu der verlinkten Webseite."></a>
+                                </div>
+                                <div class="row-rechts">
+                                    <h3>Are.na</h3>
+                                    <p>Are.na is a platform for connecting ideas and building knowledge. I personally use it for most of my research projects. It's kind of like Pinterest but way better.</p>
+                                </div>
+                            </div>
+
+                            <!-- Funk Magazine -->
+                            <div class="row">
+                                <div class="row-links">
+                                    <a href="https://funk-magazine.de/" target="_blank"><img
+                                        class="arrow-animation"
+                                        src="./ASSETS/arrow_upward_FILL0_wght100_GRAD0_opsz48.svg"
+                                        alt="An arrow that points upwards but when you hover it, it points to the right. If you click on it, it will send you to the linked website. / Ein Pfeil, der nach oben zeigt. Fährt man allerdings mit der Maus über ihn, zeigt er nach rechts. Klickt man ihn, schickt er dich zu der verlinkten Webseite."></a>
+                                </div>
+                                <div class="row-rechts">
+                                    <h3>Funk Magazine</h3>
+                                    <p>Funk Magazine is a small magazine store located in Cologne by my good friend Olga. She has a great selection of independent international magazines which is hard to find anywhere else.</p>
+                                </div>
+                            </div>
+
+                            <!-- Klikkentheke -->
+                            <div class="row">
+                                <div class="row-links">
+                                    <a href="https://klikkentheke.com/" target="_blank">
+                                    <img class="arrow-animation"
+                                        src="./ASSETS/arrow_upward_FILL0_wght100_GRAD0_opsz48.svg"
+                                        alt="An arrow that points upwards but when you hover it, it points to the right. If you click on it, it will send you to the linked website. / Ein Pfeil, der nach oben zeigt. Fährt man allerdings mit der Maus über ihn, zeigt er nach rechts. Klickt man ihn, schickt er dich zu der verlinkten Webseite."></a>
+                                </div>
+                                <div class="row-rechts">
+                                    <h3>Klikkenthéke</h3>
+                                    <p>This website is a curated web design catalogue by Division Binaural and functions as a source of inspiration for designers and developers alike.</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+            </main>
+
+            <!-- Footer -->
+            <footer id="contact">
+                <div class="footer-wrapper">
+                    <div class="linke-spalte">
+                        <div class="top-left">
+                            <h2>Contact</h2>
+                            <div class="footer-box">
+                                <h3>Legal</h3>
+                                <a class="footer-text" href="imprint.html">Imprint</a>
+                                <a class="footer-text" href="data-protection.html"> Privacy Policy</a>
+                            </div>
+                            <div class="footer-box">
+                                <h3>Social</h3>
+                                <a
+                                    class="footer-text"
+                                    href="https://www.instagram.com/ned.xyz/"
+                                    target="_blank">Instagram</a>
+                                <a class="footer-text" href="https://www.are.na/nils-deutsch" target="_blank">Are.na</a>
+                            </div>
+                        </div>
+                        <div class="bottom-left">
+                            <div class="footer-box">
+                                <h3>Contact</h3>
+                                <a
+                                    class="footer-text"
+                                    href="mailto:nils.deutsch@studio.com?subject=Project%20Inquiry">nils.deutsch@studio.com</a>
+                            </div>
+                            <div class="footer-box">
+                                <div class="copyright">© Nils Deutsch All Rights Reserved 2023</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rechte-spalte">
+                        <div class="footer-box hover-box">
+                            <h3>Upcoming Projects</h3>
+                            <ul>
+                                <li>
+                                    <span class="upcoming-text">Fashion Film Festival</span>
+                                    <img class="upcoming-img" src="./ASSETS/fff.jpg" alt="An image of a teaser of an upcoming project. / Ein Bild eines Teasers für ein kommendes Projekt.">
+                                </li>
+                                <li>
+                                    <span class="upcoming-text">Tanzcafé</span>
+                                    <img class="upcoming-img" src="./ASSETS/tanzcafe.jpg" alt="An image of a teaser of an upcoming project. / Ein Bild eines Teasers für ein kommendes Projekt.">
+                                </li>
+                                <li>
+                                    <span class="upcoming-text">Funk Magazine Pop-Up</span>
+                                    <img class="upcoming-img" src="./ASSETS/magazine-pop-up.jpg" alt="An image of a teaser of an upcoming project. / Ein Bild eines Teasers für ein kommendes Projekt.">
+                                </li>
+                                <li>
+                                    <span class="upcoming-text">E-Commerce Launch</span>
+                                    <img class="upcoming-img" src="./ASSETS/ecom.jpg" alt="An image of a teaser of an upcoming project. / Ein Bild eines Teasers für ein kommendes Projekt.">
+                                </li>
+
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+
+
+
+    <!-- Javascript -->
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://unpkg.com/@barba/core"></script>
+    <script src="./JS/index.js"></script>
+    
+    </body>
+
+    
+
+</html>
